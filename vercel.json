@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "project-bolt-sb1-1merwqme/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "project-bolt-sb1-1merwqme/dist"
+      }
+    }
+  ],
+  "buildCommand": "cd project-bolt-sb1-1merwqme && npm run build",
+  "installCommand": "cd project-bolt-sb1-1merwqme && npm install",
+  "outputDirectory": "project-bolt-sb1-1merwqme/dist"
+}
